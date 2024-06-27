@@ -7,21 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container" data-0="transform:translateX(0%);" 
-    data-1000="transform:translateX(-200%);">
+    <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-200%);">
         <section>
             <div class="section-div" id="section1"></div>
+            <div class="text" data-0="opacity:1;" data-300="opacity:0;">Margarita</div>
         </section>
         <section>
             <div class="section-div" id="section2"></div>
+            <div class="text" data-300="opacity:0;" data-500="opacity:1;" data-800="opacity:0;">Negroni</div>
         </section>
         <section>
             <div class="section-div" id="section3"></div>
+            <div class="text" data-800="opacity:0;" data-1000="opacity:1;" data-1300="opacity:0;">Pina Colada</div>
+            <div class="text2" data-800="opacity:0;" data-1000="opacity:1;" data-1300="opacity:0;">
+                <p>Ingredients</p>
+                <p>100g caster sugar</p>
+                <p>60ml white rum</p>
+                <p>75ml pineapple juice</p>
+                <p>50ml coconut cream</p>
+                <p>pineapple wedge, to garnish</p>
+            </div>
         </section>
     </div>
-    <script type="text/javascript" src="skrollr.js"></script>
-	<script type="text/javascript">
-	    var s = skrollr.init();
-	</script>
+    <script src="skrollr.js"></script>
+    <script>
+        var s = skrollr.init();
+    </script>
 </body>
 </html>
