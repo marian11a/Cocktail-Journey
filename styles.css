@@ -25,7 +25,7 @@
 .section-div {
     width: 100%;
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -34,45 +34,91 @@
 
 .text {
     position: absolute;
-    top: 15%; /* Adjust vertical position as needed */
-    left: 50%; /* Adjust horizontal position as needed */
+    top: 15%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     color: white;
     font-size: 65px;
-    font-weight: bold; /* Make text bolder */
-    letter-spacing: 5px; /* Add letter spacing */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth opacity transition */
-    z-index: 2; /* Higher z-index to be above section-div */
+    font-weight: bold; 
+    letter-spacing: 5px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .text2 {
     position: absolute;
-    top: 50%; /* Adjust vertical position as needed */
-    left: 50%; /* Adjust horizontal position as needed */
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 5%;
     color: white;
     font-size: 24px;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth opacity transition */
-    z-index: 2; /* Higher z-index to be above section-div */
-    text-align: center; /* Center-align text */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 85%;
 }
 
 .text2 p {
-    margin-bottom: 10px; /* Adjust spacing between paragraphs */
+    margin-bottom: 10px; 
+    text-align: left; 
 }
 
+.text2 h2 {
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
+.text3 {
+    position: absolute;
+    top: 30%;
+    left: 60%; 
+    color: white;
+    font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+    text-align: left; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.text3 p {
+    margin-bottom: 10px; 
+    text-align: left; 
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    max-width: 80%;
+
+}
+
+.text3 h2 {
+    margin-bottom: 20px; 
+    text-align: left
+}
+
+.text3 h3 {
+    margin-bottom: 20px; 
+    text-align: left
+}
 
 #section1 {
     background-image: url('img/Margarita.jpg');
+    filter: brightness(0.6);
 }
 
 #section2 {
     background-image: url('img/Negroni.jpg');
+    filter: brightness(0.6);
 }
 
 #section3 {
     background-image: url('img/Pina-Colada.jpg');
+    filter: brightness(0.6);
+}
+
+#section4 {
+    background-image: url('img/Mojito.jpg');
+    filter: brightness(0.6);
 }
