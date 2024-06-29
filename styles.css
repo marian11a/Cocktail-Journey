@@ -49,7 +49,7 @@
 
 .text2 {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 5%;
     color: white;
     font-size: 24px;
@@ -73,7 +73,7 @@
 
 .text3 {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 60%; 
     color: white;
     font-size: 18px;
@@ -103,6 +103,63 @@
     text-align: left
 }
 
+.text4 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    font-size: 14px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 85%;
+}
+
+.text4 p {
+    margin-bottom: 10px; 
+    text-align: left; 
+}
+
+.text4 h2 {
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
+.text5 {
+    position: absolute;
+    top: 25%;
+    left: 60%; 
+    color: white;
+    font-size: 14px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+    text-align: left; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.text5 p {
+    margin-bottom: 10px; 
+    text-align: left; 
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    max-width: 80%;
+
+}
+
+.text5 h2 {
+    margin-bottom: 20px; 
+    text-align: left
+}
+
+.text5 h3 {
+    margin-bottom: 5px; 
+    text-align: left
+}
+
+
 #section1 {
     background-image: url('img/Margarita.jpg');
     filter: brightness(0.6);
@@ -120,5 +177,20 @@
 
 #section4 {
     background-image: url('img/Mojito.jpg');
+    filter: brightness(0.6);
+}
+
+#section5 {
+    background-image: url('img/Mai-Tai.jpg');
+    filter: brightness(0.6);
+}
+
+#section6 {
+    background-image: url('img/Bloody_Mary.jpg');
+    filter: brightness(0.6);
+}
+
+#section7 {
+    background-image: url('img/Long-Island.png');
     filter: brightness(0.6);
 }
