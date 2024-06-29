@@ -127,6 +127,30 @@
     text-align: left;
 }
 
+.text4-5 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 85%;
+}
+
+.text4-5 p {
+    margin-bottom: 12px; 
+    text-align: left; 
+}
+
+.text4-5 h2 {
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
 .text5 {
     position: absolute;
     top: 25%;
