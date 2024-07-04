@@ -78,6 +78,7 @@ body {
     transition: opacity 0.3s ease; 
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
 }
 
 .text2 {
@@ -262,6 +263,15 @@ body {
     text-align: left
 }
 
+.ignore-dot {
+    margin-top: -12px; 
+}
+
+.text2 p.ignore-dot::before {
+    content: "\00a0 \00a0";
+    font-weight: 600;
+    color: inherit;
+}
 
 #section1 {
     background-image: url('img/Margarita.jpg');
@@ -301,4 +311,32 @@ body {
 
 #section10 {
     background-image: url('img/Sex-On-The-Beach.jpg');
+}
+
+#section11 {
+    background-image: url('img/Aperol-Spritz.jpg');
+}
+
+#section111 {
+    background-image: url('img/Daiquiri.jpg');
+}
+
+#section12 {
+    background-image: url('img/Strawberry-Daiquiri.jpg');
+}
+
+#section13 {
+    background-image: url('img/Cosmopolitan.jpg');
+}
+
+#section14 {
+    background-image: url('img/Blue-Lagoon.jpg');
+}
+
+#section15 {
+    background-image: url('img/Amaretto-Sour.jpg');
+}
+
+#section16 {
+    background-image: url('img/Whiskey-Sour.jpg');
 }
