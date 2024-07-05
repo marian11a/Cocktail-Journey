@@ -263,6 +263,45 @@ body {
     text-align: left
 }
 
+.text6 {
+    position: absolute;
+    top: 25%;
+    left: 60%; 
+    color: white;
+    font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+    text-align: left; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.text6 p {
+    letter-spacing: 1px; 
+    margin-bottom: 15px; 
+    margin-left: 20px; 
+    text-align: left; 
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    max-width: 80%;
+    font-weight: 100;
+    color: rgb(239, 239, 239);
+}
+
+.text6 h2 {
+    letter-spacing: 2px; 
+    margin-bottom: 12px; 
+    text-align: left
+}
+
+.text6 h3 {
+    letter-spacing: 2px; 
+    margin-bottom: 5px; 
+    margin-left: 10px; 
+    text-align: left
+}
+
+
 .ignore-dot {
     margin-top: -12px; 
 }
@@ -317,7 +356,7 @@ body {
     background-image: url('img/Aperol-Spritz.jpg');
 }
 
-#section111 {
+#section21 {
     background-image: url('img/Daiquiri.jpg');
 }
 
@@ -342,5 +381,18 @@ body {
 }
 
 #section17 {
-    background-image: url('img/Old-Fashioned.avif');
+    background-image: url('img/Old-Fashioned.jpg');
+}
+
+#section18 {
+    background-image: url('img/Paloma.jpg');
+    filter: brightness(0.62);
+}
+
+#section19 {
+    background-image: url('img/Singapore-Sling.jpg');
+}
+
+#section20 {
+    background-image: url('img/Jungle-Bird.png');
 }
