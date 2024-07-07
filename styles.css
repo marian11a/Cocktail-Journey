@@ -312,6 +312,12 @@ body {
     color: inherit;
 }
 
+.text4 p.ignore-dot::before {
+    content: "\00a0 \00a0";
+    font-weight: 600;
+    color: inherit;
+}
+
 #section1 {
     background-image: url('img/Margarita.jpg');
 }
@@ -395,4 +401,8 @@ body {
 
 #section20 {
     background-image: url('img/Jungle-Bird.png');
+}
+
+#section22 {
+    background-image: url('img/Zombie.png');
 }
